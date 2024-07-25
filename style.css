@@ -112,7 +112,7 @@
   transition: 0.3s ease;
 }
 
-#navbar li a.active::after,
+.nav-link.active::after,
 #navbar li a:hover::after {
   content: "";
   width: 30%;
